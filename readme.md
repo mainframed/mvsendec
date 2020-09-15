@@ -12,7 +12,7 @@ You can pass an optional record length field to change the length of the records
 
 `mvsendec.py enct 160 infile outfile`
 
-The the outfile and place it in a dataset on tk4-. Then use this job to convert it back:
+Then take the outfile and place it in a dataset on tk4-. Then use this job to convert it back:
 
 ```
 //ENCODE   JOB CLASS=A,MSGCLASS=H,MSGLEVEL=(1,1),
